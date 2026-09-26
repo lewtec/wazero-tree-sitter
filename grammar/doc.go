@@ -23,6 +23,8 @@
 //
 //	import _ "github.com/lewtec/wazero-tree-sitter/grammar/json"
 //
+// Line and column lookup is github.com/lewtec/lewkit/x/text.LineIndex.
+//
 // # Generated files
 //
 // grammar/<lang>/api.go and grammar.wasm are codegen output
