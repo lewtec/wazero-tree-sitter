@@ -112,7 +112,7 @@ func limitMemory(cmd *exec.Cmd) *exec.Cmd {
 		"--uid=" + strconv.Itoa(os.Getuid()),
 		"--gid=" + strconv.Itoa(os.Getgid()),
 		"--working-directory=" + wd,
-		"--collect", "--quiet", "--wait",
+		"--collect", "--quiet",
 		"--",
 	}, cmd.Args...)
 	wrapped := exec.Command("sudo", argv...)
