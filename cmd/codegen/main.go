@@ -20,7 +20,7 @@ func main() {
 	root.Flags().StringSliceVar(&onlyLangs, "only", nil, "Limit to these language ids")
 	root.AddCommand(&cobra.Command{
 		Use:   "print-tree-sitter-path",
-		Short: "Print the workspaced cache path for core tree-sitter",
+		Short: "Print the modot cache path for core tree-sitter",
 		RunE: func(cmd *cobra.Command, args []string) error {
 			p, err := resolveTreeSitterPath()
 			if err != nil {

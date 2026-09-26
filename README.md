@@ -14,7 +14,7 @@ mise run codegen
 mise run test
 ```
 
-Uncomment a `#grammar` block in `workspaced.cue`, then lock, sync, and codegen again.
+Uncomment a `#grammar` block in `modot.cue`, then lock, sync, and codegen again.
 
 ```go
 import (

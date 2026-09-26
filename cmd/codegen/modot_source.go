@@ -14,24 +14,24 @@ import (
 	"strings"
 )
 
-// tree-sitter core lives in the workspaced github source cache:
+// tree-sitter core lives in the modot github source cache:
 //
-//	~/.cache/workspaced/sources/github/sha256("v4:repo:tree-sitter/tree-sitter@HEAD")
-var treeSitterSource = workspacedGithubSource{
+//	~/.cache/modot/sources/github/sha256("v4:repo:tree-sitter/tree-sitter@HEAD")
+var treeSitterSource = modotGithubSource{
 	Repo:        "tree-sitter/tree-sitter",
 	Version:     "HEAD",
 	Marker:      "lib/src/lib.c",
 	EnvOverride: "TREE_SITTER_PATH",
 }
 
-type workspacedGithubSource struct {
+type modotGithubSource struct {
 	Repo        string
 	Version     string
 	Marker      string
 	EnvOverride string
 }
 
-func (s workspacedGithubSource) version() string {
+func (s modotGithubSource) version() string {
 	v := strings.TrimSpace(s.Version)
 	if v == "" {
 		return "HEAD"
@@ -39,28 +39,28 @@ func (s workspacedGithubSource) version() string {
 	return v
 }
 
-func (s workspacedGithubSource) repo() string {
+func (s modotGithubSource) repo() string {
 	return strings.Trim(strings.TrimSpace(s.Repo), "/")
 }
 
-func (s workspacedGithubSource) cacheKey() string {
+func (s modotGithubSource) cacheKey() string {
 	return "v4:repo:" + s.repo() + "@" + s.version()
 }
 
-func (s workspacedGithubSource) CachePath() (string, error) {
+func (s modotGithubSource) CachePath() (string, error) {
 	sum := sha256.Sum256([]byte(s.cacheKey()))
 	home, err := os.UserHomeDir()
 	if err != nil {
 		return "", err
 	}
-	return filepath.Join(home, ".cache", "workspaced", "sources", "github", hex.EncodeToString(sum[:])), nil
+	return filepath.Join(home, ".cache", "modot", "sources", "github", hex.EncodeToString(sum[:])), nil
 }
 
 func resolveTreeSitterPath() (string, error) {
 	return treeSitterSource.Resolve()
 }
 
-func (s workspacedGithubSource) Resolve() (string, error) {
+func (s modotGithubSource) Resolve() (string, error) {
 	if s.EnvOverride != "" {
 		if p := strings.TrimSpace(os.Getenv(s.EnvOverride)); p != "" {
 			if err := s.checkReady(p); err != nil {
@@ -72,7 +72,7 @@ func (s workspacedGithubSource) Resolve() (string, error) {
 	return s.ensure()
 }
 
-func (s workspacedGithubSource) checkReady(root string) error {
+func (s modotGithubSource) checkReady(root string) error {
 	mark := filepath.Join(root, s.Marker)
 	if _, err := os.Stat(mark); err != nil {
 		return fmt.Errorf("%s root %s: %w (need %s)", s.repo(), root, err, s.Marker)
@@ -80,7 +80,7 @@ func (s workspacedGithubSource) checkReady(root string) error {
 	return nil
 }
 
-func (s workspacedGithubSource) ensure() (string, error) {
+func (s modotGithubSource) ensure() (string, error) {
 	cache, err := s.CachePath()
 	if err != nil {
 		return "", err
@@ -103,7 +103,7 @@ func (s workspacedGithubSource) ensure() (string, error) {
 }
 
 func lockDigestForGithubSource(repo string) (string, error) {
-	lockPath, err := findUp("workspaced.lock.json")
+	lockPath, err := findUp("modot.lock.json")
 	if err != nil {
 		return "", err
 	}

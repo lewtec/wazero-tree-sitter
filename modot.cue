@@ -1,4 +1,4 @@
-package workspaced
+package modot
 
 // One declaration per language (CUE unifies into #grammar).
 // Live #grammar entries are enabled. Uncomment a block to unlock.
@@ -36,30 +36,28 @@ package workspaced
 	version: "HEAD"
 }
 
-workspaced: {
-	inputs: {
-		tree_sitter: {
-			from:    #tree_sitter.from
-			version: #tree_sitter.version
-		}
-		for name, g in #grammar {
-			"grammar_\(name)": {
-				from:    g.from
-				version: g.version
-			}
+inputs: {
+	tree_sitter: {
+		from:    #tree_sitter.from
+		version: #tree_sitter.version
+	}
+	for name, g in #grammar {
+		"grammar_\(name)": {
+			from:    g.from
+			version: g.version
 		}
 	}
-	modules: {
-		// tree_sitter has no place module. Each #grammar is copied under third-party/.
-		for name, g in #grammar {
-			"grammar_\(name)": {
-				from: "core:place"
-				config: {
-					ignore_missing: true
-					items: {
-						for p in g.paths {
-							"third-party/\(g.repo)/\(p)": "grammar_\(name):\(p)"
-						}
+}
+modules: {
+	// tree_sitter has no place module. Each #grammar is copied under third-party/.
+	for name, g in #grammar {
+		"grammar_\(name)": {
+			from: "core:place"
+			config: {
+				ignore_missing: true
+				items: {
+					for p in g.paths {
+						"third-party/\(g.repo)/\(p)": "grammar_\(name):\(p)"
 					}
 				}
 			}
