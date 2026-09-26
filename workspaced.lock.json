@@ -2,6 +2,1329 @@
   "dependencies": [
     {
       "kind": "source",
+      "ref": "github:6cdh/tree-sitter-racket",
+      "depName": "6cdh/tree-sitter-racket",
+      "packageName": "https://github.com/6cdh/tree-sitter-racket",
+      "currentValue": "main",
+      "currentDigest": "b3cbbde75ce2de3079e33c7fe90bd41b1d45be48",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:6cdh/tree-sitter-scheme",
+      "depName": "6cdh/tree-sitter-scheme",
+      "packageName": "https://github.com/6cdh/tree-sitter-scheme",
+      "currentValue": "main",
+      "currentDigest": "1b112d9571e4f62fb3d095d52a51f1da7756fb94",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:ColinKennedy/tree-sitter-objdump",
+      "depName": "ColinKennedy/tree-sitter-objdump",
+      "packageName": "https://github.com/ColinKennedy/tree-sitter-objdump",
+      "currentValue": "master",
+      "currentDigest": "28d3b2e25a0b1881d1b47ed1924ca276c7003d45",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:DerekStride/tree-sitter-sql",
+      "depName": "DerekStride/tree-sitter-sql",
+      "packageName": "https://github.com/DerekStride/tree-sitter-sql",
+      "currentValue": "main",
+      "currentDigest": "97614d051eebfd3bc5d97c0bdb5a1638719ca811",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:EmranMR/tree-sitter-blade",
+      "depName": "EmranMR/tree-sitter-blade",
+      "packageName": "https://github.com/EmranMR/tree-sitter-blade",
+      "currentValue": "main",
+      "currentDigest": "b5291d1ba207a8ebb8383b2ecb8a8a6535210a50",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:FallenAngel97/tree-sitter-rego",
+      "depName": "FallenAngel97/tree-sitter-rego",
+      "packageName": "https://github.com/FallenAngel97/tree-sitter-rego",
+      "currentValue": "master",
+      "currentDigest": "da2a1f63cd877efb05d56de61fe516e90012b9a7",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:Freed-Wu/tree-sitter-tmux",
+      "depName": "Freed-Wu/tree-sitter-tmux",
+      "packageName": "https://github.com/Freed-Wu/tree-sitter-tmux",
+      "currentValue": "master",
+      "currentDigest": "58147321fa1f00daec15dd4d371bc9e2e9373459",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:Fymyte/tree-sitter-rasi",
+      "depName": "Fymyte/tree-sitter-rasi",
+      "packageName": "https://github.com/Fymyte/tree-sitter-rasi",
+      "currentValue": "main",
+      "currentDigest": "e735c6881d8b475aaa4ef8f0a2bdfd825b438143",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:GordianDziwis/tree-sitter-sparql",
+      "depName": "GordianDziwis/tree-sitter-sparql",
+      "packageName": "https://github.com/GordianDziwis/tree-sitter-sparql",
+      "currentValue": "main",
+      "currentDigest": "1ef52d35a73a2a5f2e433ecfd1c751c1360a923b",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:GordianDziwis/tree-sitter-turtle",
+      "depName": "GordianDziwis/tree-sitter-turtle",
+      "packageName": "https://github.com/GordianDziwis/tree-sitter-turtle",
+      "currentValue": "main",
+      "currentDigest": "7f789ea7ef765080f71a298fc96b7c957fa24422",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:Isopod/tree-sitter-pascal",
+      "depName": "Isopod/tree-sitter-pascal",
+      "packageName": "https://github.com/Isopod/tree-sitter-pascal",
+      "currentValue": "master",
+      "currentDigest": "042119eca2e18a60e56317fb06ee3ba5c32cb447",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:Joakker/tree-sitter-json5",
+      "depName": "Joakker/tree-sitter-json5",
+      "packageName": "https://github.com/Joakker/tree-sitter-json5",
+      "currentValue": "master",
+      "currentDigest": "248b8564567087d7866be76569b182f6dd7e14e9",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:JoranHonig/tree-sitter-solidity",
+      "depName": "JoranHonig/tree-sitter-solidity",
+      "packageName": "https://github.com/JoranHonig/tree-sitter-solidity",
+      "currentValue": "master",
+      "currentDigest": "048fe686cb1fde267243739b8bdbec8fc3a55272",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:MatthewFluet/tree-sitter-sml",
+      "depName": "MatthewFluet/tree-sitter-sml",
+      "packageName": "https://github.com/MatthewFluet/tree-sitter-sml",
+      "currentValue": "main",
+      "currentDigest": "fd4b4955bb998262840ab8119885b3edf20ea75a",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:PrestonKnopp/tree-sitter-gdscript",
+      "depName": "PrestonKnopp/tree-sitter-gdscript",
+      "packageName": "https://github.com/PrestonKnopp/tree-sitter-gdscript",
+      "currentValue": "master",
+      "currentDigest": "8ecb27ed77c09edd7cca123bbecebd44930b765c",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:PrestonKnopp/tree-sitter-godot-resource",
+      "depName": "PrestonKnopp/tree-sitter-godot-resource",
+      "packageName": "https://github.com/PrestonKnopp/tree-sitter-godot-resource",
+      "currentValue": "master",
+      "currentDigest": "302c1895f54bf74d53a08572f7b26a6614209adc",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:RubixDev/tree-sitter-asm",
+      "depName": "RubixDev/tree-sitter-asm",
+      "packageName": "https://github.com/RubixDev/tree-sitter-asm",
+      "currentValue": "main",
+      "currentDigest": "839741fef4dab5128952334624905c82b40c7133",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:UserNobody14/tree-sitter-dart",
+      "depName": "UserNobody14/tree-sitter-dart",
+      "packageName": "https://github.com/UserNobody14/tree-sitter-dart",
+      "currentValue": "master",
+      "currentDigest": "be07cf7118d3dba06236a3f19541685a68209934",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:WhatsApp/tree-sitter-erlang",
+      "depName": "WhatsApp/tree-sitter-erlang",
+      "packageName": "https://github.com/WhatsApp/tree-sitter-erlang",
+      "currentValue": "main",
+      "currentDigest": "6ba4c762eb3065495e3db85697ffeecdf364ce35",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:acristoffers/tree-sitter-matlab",
+      "depName": "acristoffers/tree-sitter-matlab",
+      "packageName": "https://github.com/acristoffers/tree-sitter-matlab",
+      "currentValue": "main",
+      "currentDigest": "f03d0347acd8bb05d4edd8c845ac1718729e1fad",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:airbus-cert/tree-sitter-powershell",
+      "depName": "airbus-cert/tree-sitter-powershell",
+      "packageName": "https://github.com/airbus-cert/tree-sitter-powershell",
+      "currentValue": "main",
+      "currentDigest": "e7bd348c49fdfd5c853a146a670965ba516a6239",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:alaviss/tree-sitter-nim",
+      "depName": "alaviss/tree-sitter-nim",
+      "packageName": "https://github.com/alaviss/tree-sitter-nim",
+      "currentValue": "main",
+      "currentDigest": "ac72ba30d16edf0be021588a9301ede4accd6cf4",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:alemuller/tree-sitter-vhdl",
+      "depName": "alemuller/tree-sitter-vhdl",
+      "packageName": "https://github.com/alemuller/tree-sitter-vhdl",
+      "currentValue": "main",
+      "currentDigest": "a3b2d84990527c7f8f4ae219c332c00c33d2d8e5",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:alex-pinkus/tree-sitter-swift",
+      "depName": "alex-pinkus/tree-sitter-swift",
+      "packageName": "https://github.com/alex-pinkus/tree-sitter-swift",
+      "currentValue": "main",
+      "currentDigest": "187fd4d3e55e2088da9cb31e414a2bac866292e8",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:apple/tree-sitter-pkl",
+      "depName": "apple/tree-sitter-pkl",
+      "packageName": "https://github.com/apple/tree-sitter-pkl",
+      "currentValue": "main",
+      "currentDigest": "c95d8284940f5e1da2cd0d8f1ee45d7ef9ef75d1",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:benwilliamgraham/tree-sitter-llvm",
+      "depName": "benwilliamgraham/tree-sitter-llvm",
+      "packageName": "https://github.com/benwilliamgraham/tree-sitter-llvm",
+      "currentValue": "main",
+      "currentDigest": "2914786ae6774d4c4e25a230f4afe16aa68fe1c1",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:bkegley/tree-sitter-graphql",
+      "depName": "bkegley/tree-sitter-graphql",
+      "packageName": "https://github.com/bkegley/tree-sitter-graphql",
+      "currentValue": "master",
+      "currentDigest": "5e66e961eee421786bdda8495ed1db045e06b5fe",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:briot/tree-sitter-ada",
+      "depName": "briot/tree-sitter-ada",
+      "packageName": "https://github.com/briot/tree-sitter-ada",
+      "currentValue": "master",
+      "currentDigest": "dd5fa4cdb3aba91abc687aa68fb1431396fce6a6",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:bytecodealliance/tree-sitter-wit",
+      "depName": "bytecodealliance/tree-sitter-wit",
+      "packageName": "https://github.com/bytecodealliance/tree-sitter-wit",
+      "currentValue": "main",
+      "currentDigest": "cdf07263b136054b413cab449ac7a1d059c27542",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:camdencheek/tree-sitter-dockerfile",
+      "depName": "camdencheek/tree-sitter-dockerfile",
+      "packageName": "https://github.com/camdencheek/tree-sitter-dockerfile",
+      "currentValue": "main",
+      "currentDigest": "971acdd908568b4531b0ba28a445bf0bb720aba5",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:casey/tree-sitter-just",
+      "depName": "casey/tree-sitter-just",
+      "packageName": "https://github.com/casey/tree-sitter-just",
+      "currentValue": "main",
+      "currentDigest": "5685543a6e64f66335e25518c9ae8ffa1dae3d01",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:connorlay/tree-sitter-eex",
+      "depName": "connorlay/tree-sitter-eex",
+      "packageName": "https://github.com/connorlay/tree-sitter-eex",
+      "currentValue": "main",
+      "currentDigest": "f742f2fe327463335e8671a87c0b9b396905d1d1",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:connorlay/tree-sitter-surface",
+      "depName": "connorlay/tree-sitter-surface",
+      "packageName": "https://github.com/connorlay/tree-sitter-surface",
+      "currentValue": "main",
+      "currentDigest": "f4586b35ac8548667a9aaa4eae44456c1f43d032",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:crystal-lang-tools/tree-sitter-crystal",
+      "depName": "crystal-lang-tools/tree-sitter-crystal",
+      "packageName": "https://github.com/crystal-lang-tools/tree-sitter-crystal",
+      "currentValue": "main",
+      "currentDigest": "50ca9e6fcfb16a2cbcad59203cfd8ad650e25c49",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:dlvandenberg/tree-sitter-angular",
+      "depName": "dlvandenberg/tree-sitter-angular",
+      "packageName": "https://github.com/dlvandenberg/tree-sitter-angular",
+      "currentValue": "main",
+      "currentDigest": "38a8014ed5452cd6b7cf1399c00177a1f5374256",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:elixir-lang/tree-sitter-elixir",
+      "depName": "elixir-lang/tree-sitter-elixir",
+      "packageName": "https://github.com/elixir-lang/tree-sitter-elixir",
+      "currentValue": "main",
+      "currentDigest": "4b0c7118760af58a2e7081bbc8396e136f820b37",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:elm-tooling/tree-sitter-elm",
+      "depName": "elm-tooling/tree-sitter-elm",
+      "packageName": "https://github.com/elm-tooling/tree-sitter-elm",
+      "currentValue": "main",
+      "currentDigest": "e1e8fea161a1e66f3997855d316be2a43e4e956f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:eonpatapon/tree-sitter-cue",
+      "depName": "eonpatapon/tree-sitter-cue",
+      "packageName": "https://github.com/eonpatapon/tree-sitter-cue",
+      "currentValue": "main",
+      "currentDigest": "dd7b90e0770ff18070c515937ba3c3d6d93db00e",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:faldor20/tree-sitter-roc",
+      "depName": "faldor20/tree-sitter-roc",
+      "packageName": "https://github.com/faldor20/tree-sitter-roc",
+      "currentValue": "master",
+      "currentDigest": "2760de95b87004ed537151f2467377a6ddafdef0",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:fwcd/tree-sitter-kotlin",
+      "depName": "fwcd/tree-sitter-kotlin",
+      "packageName": "https://github.com/fwcd/tree-sitter-kotlin",
+      "currentValue": "main",
+      "currentDigest": "1852ea17b7f60fb3f9d84e0b1555d56b46b39fb1",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:gbprod/tree-sitter-gitcommit",
+      "depName": "gbprod/tree-sitter-gitcommit",
+      "packageName": "https://github.com/gbprod/tree-sitter-gitcommit",
+      "currentValue": "main",
+      "currentDigest": "55a265cf763ec15d6e2d96bb206e3f5e30d82bae",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:gbprod/tree-sitter-twig",
+      "depName": "gbprod/tree-sitter-twig",
+      "packageName": "https://github.com/gbprod/tree-sitter-twig",
+      "currentValue": "main",
+      "currentDigest": "2208d2a3c3ee7ef378e97df2e51c18feb7ee9dfc",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:gleam-lang/tree-sitter-gleam",
+      "depName": "gleam-lang/tree-sitter-gleam",
+      "packageName": "https://github.com/gleam-lang/tree-sitter-gleam",
+      "currentValue": "main",
+      "currentDigest": "fa6d0d94804f1b342e175865a3dbeb316ee5115e",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:indoorvivants/tree-sitter-smithy",
+      "depName": "indoorvivants/tree-sitter-smithy",
+      "packageName": "https://github.com/indoorvivants/tree-sitter-smithy",
+      "currentValue": "main",
+      "currentDigest": "ec4fe14586f2b0a1bc65d6db17f8d8acd8a90433",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:ionide/tree-sitter-fsharp",
+      "depName": "ionide/tree-sitter-fsharp",
+      "packageName": "https://github.com/ionide/tree-sitter-fsharp",
+      "currentValue": "main",
+      "currentDigest": "aefd0c8741bdf3aeb827a228aa4a996a6536697e",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:justinmk/tree-sitter-ini",
+      "depName": "justinmk/tree-sitter-ini",
+      "packageName": "https://github.com/justinmk/tree-sitter-ini",
+      "currentValue": "master",
+      "currentDigest": "e4018b5176132b4f3c5d6e61cea383f42288d0f5",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:kayhide/tree-sitter-idris",
+      "depName": "kayhide/tree-sitter-idris",
+      "packageName": "https://github.com/kayhide/tree-sitter-idris",
+      "currentValue": "main",
+      "currentDigest": "9fe334fb603fdce0e84349ed78f41ae3d2f7036b",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:latex-lsp/tree-sitter-bibtex",
+      "depName": "latex-lsp/tree-sitter-bibtex",
+      "packageName": "https://github.com/latex-lsp/tree-sitter-bibtex",
+      "currentValue": "master",
+      "currentDigest": "8d04ed27b3bc7929f14b7df9236797dab9f3fa66",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:latex-lsp/tree-sitter-latex",
+      "depName": "latex-lsp/tree-sitter-latex",
+      "packageName": "https://github.com/latex-lsp/tree-sitter-latex",
+      "currentValue": "master",
+      "currentDigest": "fa8df448fc2c0192a8c2f8cfc97de53cb2b4ecb9",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:mitchellh/tree-sitter-proto",
+      "depName": "mitchellh/tree-sitter-proto",
+      "packageName": "https://github.com/mitchellh/tree-sitter-proto",
+      "currentValue": "main",
+      "currentDigest": "42d82fa18f8afe59b5fc0b16c207ee4f84cb185f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:murtaza64/tree-sitter-groovy",
+      "depName": "murtaza64/tree-sitter-groovy",
+      "packageName": "https://github.com/murtaza64/tree-sitter-groovy",
+      "currentValue": "main",
+      "currentDigest": "deb0dcf8c4544f07564060f6e9b9f6e4b0bfc27d",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:naclsn/tree-sitter-nasm",
+      "depName": "naclsn/tree-sitter-nasm",
+      "packageName": "https://github.com/naclsn/tree-sitter-nasm",
+      "currentValue": "main",
+      "currentDigest": "d1b3638d017f2a8585e26dcfc66fe1df94185e30",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:neovim/tree-sitter-vimdoc",
+      "depName": "neovim/tree-sitter-vimdoc",
+      "packageName": "https://github.com/neovim/tree-sitter-vimdoc",
+      "currentValue": "master",
+      "currentDigest": "23daa416c1ff5d15f59a1aa648f031d6e3ee15c5",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:nickel-lang/tree-sitter-nickel",
+      "depName": "nickel-lang/tree-sitter-nickel",
+      "packageName": "https://github.com/nickel-lang/tree-sitter-nickel",
+      "currentValue": "main",
+      "currentDigest": "fd65591d3c7812b0e3e733506f3f08a354a38ea6",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:nix-community/tree-sitter-nix",
+      "depName": "nix-community/tree-sitter-nix",
+      "packageName": "https://github.com/nix-community/tree-sitter-nix",
+      "currentValue": "master",
+      "currentDigest": "a2cd7f4011c6e5830c0c9af5aa35441b3ddd5fba",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:opa-oz/tree-sitter-nginx",
+      "depName": "opa-oz/tree-sitter-nginx",
+      "packageName": "https://github.com/opa-oz/tree-sitter-nginx",
+      "currentValue": "main",
+      "currentDigest": "7cdf006ed1addef698fc680ae31721950f85e5e9",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:phoenixframework/tree-sitter-heex",
+      "depName": "phoenixframework/tree-sitter-heex",
+      "packageName": "https://github.com/phoenixframework/tree-sitter-heex",
+      "currentValue": "main",
+      "currentDigest": "5842537f734d7c12685bf27d6005313e3e5a47a0",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:polarmutex/tree-sitter-beancount",
+      "depName": "polarmutex/tree-sitter-beancount",
+      "packageName": "https://github.com/polarmutex/tree-sitter-beancount",
+      "currentValue": "master",
+      "currentDigest": "c8a9780610dbe8ade4888045b1f2caa7a0a9d8aa",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:postsolar/tree-sitter-purescript",
+      "depName": "postsolar/tree-sitter-purescript",
+      "packageName": "https://github.com/postsolar/tree-sitter-purescript",
+      "currentValue": "main",
+      "currentDigest": "f541f95ffd6852fbbe88636317c613285bc105af",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:ram02z/tree-sitter-fish",
+      "depName": "ram02z/tree-sitter-fish",
+      "packageName": "https://github.com/ram02z/tree-sitter-fish",
+      "currentValue": "master",
+      "currentDigest": "b7f1d682941e0c62dfcd6bf9ef481638351bab16",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:rescript-lang/tree-sitter-rescript",
+      "depName": "rescript-lang/tree-sitter-rescript",
+      "packageName": "https://github.com/rescript-lang/tree-sitter-rescript",
+      "currentValue": "main",
+      "currentDigest": "90643a6302057b969c51e1bf235b8ecf1da49232",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:rest-nvim/tree-sitter-http",
+      "depName": "rest-nvim/tree-sitter-http",
+      "packageName": "https://github.com/rest-nvim/tree-sitter-http",
+      "currentValue": "main",
+      "currentDigest": "db8b4398de90b6d0b6c780aba96aaa2cd8e9202c",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:shunsambongi/tree-sitter-gitignore",
+      "depName": "shunsambongi/tree-sitter-gitignore",
+      "packageName": "https://github.com/shunsambongi/tree-sitter-gitignore",
+      "currentValue": "main",
+      "currentDigest": "f4685bf11ac466dd278449bcfe5fd014e94aa504",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:sogaiu/tree-sitter-clojure",
+      "depName": "sogaiu/tree-sitter-clojure",
+      "packageName": "https://github.com/sogaiu/tree-sitter-clojure",
+      "currentValue": "master",
+      "currentDigest": "e43eff80d17cf34852dcd92ca5e6986d23a7040f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:stadelmanma/tree-sitter-fortran",
+      "depName": "stadelmanma/tree-sitter-fortran",
+      "packageName": "https://github.com/stadelmanma/tree-sitter-fortran",
+      "currentValue": "master",
+      "currentDigest": "2bc0220f34ca660ec9571c54ea57ed5363338de1",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:stsewd/tree-sitter-comment",
+      "depName": "stsewd/tree-sitter-comment",
+      "packageName": "https://github.com/stsewd/tree-sitter-comment",
+      "currentValue": "master",
+      "currentDigest": "66272d2b6c73fb61157541b69dd0a7ce7b42a5ad",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:szebniok/tree-sitter-wgsl",
+      "depName": "szebniok/tree-sitter-wgsl",
+      "packageName": "https://github.com/szebniok/tree-sitter-wgsl",
+      "currentValue": "master",
+      "currentDigest": "40259f3c77ea856841a4e0c4c807705f3e4a2b65",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:the-mikedavis/tree-sitter-git-config",
+      "depName": "the-mikedavis/tree-sitter-git-config",
+      "packageName": "https://github.com/the-mikedavis/tree-sitter-git-config",
+      "currentValue": "main",
+      "currentDigest": "3a61756a81a86291a0f48e3eeeaa0692b9981aa9",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:the-mikedavis/tree-sitter-git-rebase",
+      "depName": "the-mikedavis/tree-sitter-git-rebase",
+      "packageName": "https://github.com/the-mikedavis/tree-sitter-git-rebase",
+      "currentValue": "main",
+      "currentDigest": "32686d6b72980b36f876ae2d07719c9c3ed154e2",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:theHamsta/tree-sitter-commonlisp",
+      "depName": "theHamsta/tree-sitter-commonlisp",
+      "packageName": "https://github.com/theHamsta/tree-sitter-commonlisp",
+      "currentValue": "master",
+      "currentDigest": "32323509b3d9fe96607d151c2da2c9009eb13a2f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-arduino",
+      "depName": "tree-sitter-grammars/tree-sitter-arduino",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-arduino",
+      "currentValue": "master",
+      "currentDigest": "11dd46c9ae25135c473c0003a133bb06a484af0c",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-bicep",
+      "depName": "tree-sitter-grammars/tree-sitter-bicep",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-bicep",
+      "currentValue": "master",
+      "currentDigest": "bff59884307c0ab009bd5e81afd9324b46a6c0f9",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-bitbake",
+      "depName": "tree-sitter-grammars/tree-sitter-bitbake",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-bitbake",
+      "currentValue": "master",
+      "currentDigest": "a5d04fdb5a69a02b8fa8eb5525a60dfb5309b73b",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-cairo",
+      "depName": "tree-sitter-grammars/tree-sitter-cairo",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-cairo",
+      "currentValue": "master",
+      "currentDigest": "6238f609bea233040fe927858156dee5515a0745",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-capnp",
+      "depName": "tree-sitter-grammars/tree-sitter-capnp",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-capnp",
+      "currentValue": "master",
+      "currentDigest": "7b0883c03e5edd34ef7bcf703194204299d7099f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-chatito",
+      "depName": "tree-sitter-grammars/tree-sitter-chatito",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-chatito",
+      "currentValue": "master",
+      "currentDigest": "c0ed82c665b732395073f635c74c300f09530a7f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-cpon",
+      "depName": "tree-sitter-grammars/tree-sitter-cpon",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-cpon",
+      "currentValue": "master",
+      "currentDigest": "594289eadfec719198e560f9d7fd243c4db678d5",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-cst",
+      "depName": "tree-sitter-grammars/tree-sitter-cst",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-cst",
+      "currentValue": "master",
+      "currentDigest": "d58f8a6a4fb60789fab750e86b1976cffc1528e1",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-csv",
+      "depName": "tree-sitter-grammars/tree-sitter-csv",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-csv",
+      "currentValue": "master",
+      "currentDigest": "f6bf6e35eb0b95fbadea4bb39cb9709507fcb181",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-cuda",
+      "depName": "tree-sitter-grammars/tree-sitter-cuda",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-cuda",
+      "currentValue": "master",
+      "currentDigest": "d58080a327756e4d1d16ec329ba7cb2048f6c6cd",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-cyberchef",
+      "depName": "tree-sitter-grammars/tree-sitter-cyberchef",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-cyberchef",
+      "currentValue": "master",
+      "currentDigest": "8bad395b98253324085b4b5227b14d4988f374b7",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-diff",
+      "depName": "tree-sitter-grammars/tree-sitter-diff",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-diff",
+      "currentValue": "main",
+      "currentDigest": "ada384ac7bfc1307f32de474620120add29998fb",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-doxygen",
+      "depName": "tree-sitter-grammars/tree-sitter-doxygen",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-doxygen",
+      "currentValue": "master",
+      "currentDigest": "6069b1815b139080d6c562b5ff9ae2296cbc6602",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-firrtl",
+      "depName": "tree-sitter-grammars/tree-sitter-firrtl",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-firrtl",
+      "currentValue": "master",
+      "currentDigest": "8503d3a0fe0f9e427863cb0055699ff2d29ae5f5",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-func",
+      "depName": "tree-sitter-grammars/tree-sitter-func",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-func",
+      "currentValue": "master",
+      "currentDigest": "f780ca55e65e7d7360d0229331763e16c452fc98",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-gitattributes",
+      "depName": "tree-sitter-grammars/tree-sitter-gitattributes",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-gitattributes",
+      "currentValue": "master",
+      "currentDigest": "1b7af09d45b579f9f288453b95ad555f1f431645",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-glsl",
+      "depName": "tree-sitter-grammars/tree-sitter-glsl",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-glsl",
+      "currentValue": "master",
+      "currentDigest": "24a6c8ef698e4480fecf8340d771fbcb5de8fbb4",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-gn",
+      "depName": "tree-sitter-grammars/tree-sitter-gn",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-gn",
+      "currentValue": "master",
+      "currentDigest": "bc06955bc1e3c9ff8e9b2b2a55b38b94da923c05",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-go-sum",
+      "depName": "tree-sitter-grammars/tree-sitter-go-sum",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-go-sum",
+      "currentValue": "master",
+      "currentDigest": "27816eb6b7315746ae9fcf711e4e1396dc1cf237",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-gpg-config",
+      "depName": "tree-sitter-grammars/tree-sitter-gpg-config",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-gpg-config",
+      "currentValue": "master",
+      "currentDigest": "4024eb268c59204280f8ac71ef146b8ff5e737f6",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-gstlaunch",
+      "depName": "tree-sitter-grammars/tree-sitter-gstlaunch",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-gstlaunch",
+      "currentValue": "master",
+      "currentDigest": "549aef253fd38a53995cda1bf55c501174372bf7",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-hare",
+      "depName": "tree-sitter-grammars/tree-sitter-hare",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-hare",
+      "currentValue": "master",
+      "currentDigest": "eed7ddf6a66b596906aa8ca3d40521b8278adc6f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-hcl",
+      "depName": "tree-sitter-grammars/tree-sitter-hcl",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-hcl",
+      "currentValue": "main",
+      "currentDigest": "64ad62785d442eb4d45df3a1764962dafd5bc98b",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-hlsl",
+      "depName": "tree-sitter-grammars/tree-sitter-hlsl",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-hlsl",
+      "currentValue": "master",
+      "currentDigest": "bab9111922d53d43668fabb61869bec51bbcb915",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-hyprlang",
+      "depName": "tree-sitter-grammars/tree-sitter-hyprlang",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang",
+      "currentValue": "master",
+      "currentDigest": "cecd6b748107d9da1f7b4ca03ef95f1f71d93b8f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-ispc",
+      "depName": "tree-sitter-grammars/tree-sitter-ispc",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-ispc",
+      "currentValue": "master",
+      "currentDigest": "ba1bb38ac8ddfa6aa7571cbfe9b4d029f7f77447",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-kconfig",
+      "depName": "tree-sitter-grammars/tree-sitter-kconfig",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-kconfig",
+      "currentValue": "master",
+      "currentDigest": "9ac99fe4c0c27a35dc6f757cef534c646e944881",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-kdl",
+      "depName": "tree-sitter-grammars/tree-sitter-kdl",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-kdl",
+      "currentValue": "master",
+      "currentDigest": "e8ff98a113e175b84b92ec2096820517c1e10a66",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-linkerscript",
+      "depName": "tree-sitter-grammars/tree-sitter-linkerscript",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-linkerscript",
+      "currentValue": "master",
+      "currentDigest": "f99011a3554213b654985a4b0a65b3b032ec4621",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-lua",
+      "depName": "tree-sitter-grammars/tree-sitter-lua",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-lua",
+      "currentValue": "main",
+      "currentDigest": "10fe0054734eec83049514ea2e718b2a56acd0c9",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-luadoc",
+      "depName": "tree-sitter-grammars/tree-sitter-luadoc",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-luadoc",
+      "currentValue": "master",
+      "currentDigest": "4d04632a3a398b78af52e83be074883e722f40be",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-luap",
+      "depName": "tree-sitter-grammars/tree-sitter-luap",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-luap",
+      "currentValue": "master",
+      "currentDigest": "c134aaec6acf4fa95fe4aa0dc9aba3eacdbbe55a",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-luau",
+      "depName": "tree-sitter-grammars/tree-sitter-luau",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-luau",
+      "currentValue": "master",
+      "currentDigest": "a8914d6c1fc5131f8e1c13f769fa704c9f5eb02f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-make",
+      "depName": "tree-sitter-grammars/tree-sitter-make",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-make",
+      "currentValue": "main",
+      "currentDigest": "70613f3d812cbabbd7f38d104d60a409c4008b43",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-markdown",
+      "depName": "tree-sitter-grammars/tree-sitter-markdown",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-markdown",
+      "currentValue": "split_parser",
+      "currentDigest": "a0a00f817d02412bd92c54d316f164d827b57b5c",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-meson",
+      "depName": "tree-sitter-grammars/tree-sitter-meson",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-meson",
+      "currentValue": "master",
+      "currentDigest": "aa8d472034956f94f51f2ef2cbfec4cc07efbfde",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-move",
+      "depName": "tree-sitter-grammars/tree-sitter-move",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-move",
+      "currentValue": "saving",
+      "currentDigest": "b8ca25518749be10562455fd081a3dab30b93b8b",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-nqc",
+      "depName": "tree-sitter-grammars/tree-sitter-nqc",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-nqc",
+      "currentValue": "master",
+      "currentDigest": "14e6da1627aaef21d2b2aa0c37d04269766dcc1d",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-objc",
+      "depName": "tree-sitter-grammars/tree-sitter-objc",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-objc",
+      "currentValue": "master",
+      "currentDigest": "181a81b8f23a2d593e7ab4259981f50122909fda",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-odin",
+      "depName": "tree-sitter-grammars/tree-sitter-odin",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-odin",
+      "currentValue": "master",
+      "currentDigest": "d2ca8efb4487e156a60d5bd6db2598b872629403",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-pem",
+      "depName": "tree-sitter-grammars/tree-sitter-pem",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-pem",
+      "currentValue": "master",
+      "currentDigest": "e525b177a229b1154fd81bc0691f943028d9e685",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-po",
+      "depName": "tree-sitter-grammars/tree-sitter-po",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-po",
+      "currentValue": "main",
+      "currentDigest": "bd860a0f57f697162bf28e576674be9c1500db5e",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-poe-filter",
+      "depName": "tree-sitter-grammars/tree-sitter-poe-filter",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-poe-filter",
+      "currentValue": "master",
+      "currentDigest": "205a7d576984feb38a9fc2d8cfe729617f9e0548",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-pony",
+      "depName": "tree-sitter-grammars/tree-sitter-pony",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-pony",
+      "currentValue": "master",
+      "currentDigest": "73ff874ae4c9e9b45462673cbc0a1e350e2522a7",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-printf",
+      "depName": "tree-sitter-grammars/tree-sitter-printf",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-printf",
+      "currentValue": "main",
+      "currentDigest": "ec4e5674573d5554fccb87a887c97d4aec489da7",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-properties",
+      "depName": "tree-sitter-grammars/tree-sitter-properties",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-properties",
+      "currentValue": "master",
+      "currentDigest": "6310671b24d4e04b803577b1c675d765cbd5773b",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-puppet",
+      "depName": "tree-sitter-grammars/tree-sitter-puppet",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-puppet",
+      "currentValue": "master",
+      "currentDigest": "15f192929b7d317f5914de2b4accd37b349182a6",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-pymanifest",
+      "depName": "tree-sitter-grammars/tree-sitter-pymanifest",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-pymanifest",
+      "currentValue": "master",
+      "currentDigest": "debbdb83fe6356adc7261c41c69b45ba49c97294",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-qmldir",
+      "depName": "tree-sitter-grammars/tree-sitter-qmldir",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-qmldir",
+      "currentValue": "master",
+      "currentDigest": "c57e00865a1a6f1cca83340d6dad91f13df55479",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-query",
+      "depName": "tree-sitter-grammars/tree-sitter-query",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-query",
+      "currentValue": "master",
+      "currentDigest": "8e9e223812ff30854fbc912adbec696ba5f0e023",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-re2c",
+      "depName": "tree-sitter-grammars/tree-sitter-re2c",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-re2c",
+      "currentValue": "master",
+      "currentDigest": "c18a3c2f4b6665e35b7e50d6048ea3cff770c572",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-readline",
+      "depName": "tree-sitter-grammars/tree-sitter-readline",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-readline",
+      "currentValue": "master",
+      "currentDigest": "6b744c527aebd12e46a5ecb3aebdb8d621a8e83e",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-requirements",
+      "depName": "tree-sitter-grammars/tree-sitter-requirements",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-requirements",
+      "currentValue": "master",
+      "currentDigest": "2c3bb291f497258ba417d052faa14a2dfee6d401",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-ron",
+      "depName": "tree-sitter-grammars/tree-sitter-ron",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-ron",
+      "currentValue": "master",
+      "currentDigest": "78938553b93075e638035f624973083451b29055",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-scss",
+      "depName": "tree-sitter-grammars/tree-sitter-scss",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-scss",
+      "currentValue": "master",
+      "currentDigest": "2ef6d42e3ad7a8208900f9346f4529806ae0f9f9",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-slang",
+      "depName": "tree-sitter-grammars/tree-sitter-slang",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-slang",
+      "currentValue": "master",
+      "currentDigest": "1dbcc4abc7b3cdd663eb03d93031167d6ed19f56",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-smali",
+      "depName": "tree-sitter-grammars/tree-sitter-smali",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-smali",
+      "currentValue": "master",
+      "currentDigest": "fdfa6a1febc43c7467aa7e937b87b607956f2346",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-squirrel",
+      "depName": "tree-sitter-grammars/tree-sitter-squirrel",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-squirrel",
+      "currentValue": "master",
+      "currentDigest": "072c969749e66f000dba35a33c387650e203e96e",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-ssh-config",
+      "depName": "tree-sitter-grammars/tree-sitter-ssh-config",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-ssh-config",
+      "currentValue": "master",
+      "currentDigest": "0c35b243392268f48fd096607da192d76c843398",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-starlark",
+      "depName": "tree-sitter-grammars/tree-sitter-starlark",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-starlark",
+      "currentValue": "master",
+      "currentDigest": "a453dbf3ba433db0e5ec621a38a7e59d72e4dc69",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-svelte",
+      "depName": "tree-sitter-grammars/tree-sitter-svelte",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-svelte",
+      "currentValue": "master",
+      "currentDigest": "ae5199db47757f785e43a14b332118a5474de1a2",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-tablegen",
+      "depName": "tree-sitter-grammars/tree-sitter-tablegen",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-tablegen",
+      "currentValue": "master",
+      "currentDigest": "b1170880c61355aaf38fc06f4af7d3c55abdabc4",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-tcl",
+      "depName": "tree-sitter-grammars/tree-sitter-tcl",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-tcl",
+      "currentValue": "main",
+      "currentDigest": "850a72ab6436e06645b33b11cfa60cbdb04b1f01",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-test",
+      "depName": "tree-sitter-grammars/tree-sitter-test",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-test",
+      "currentValue": "master",
+      "currentDigest": "76b419f178da018c29d3004fcbf14f755649eb58",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-thrift",
+      "depName": "tree-sitter-grammars/tree-sitter-thrift",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-thrift",
+      "currentValue": "main",
+      "currentDigest": "68fd0d80943a828d9e6f49c58a74be1e9ca142cf",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-udev",
+      "depName": "tree-sitter-grammars/tree-sitter-udev",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-udev",
+      "currentValue": "master",
+      "currentDigest": "2fcb563a4d56a6b8e8c129252325fc6335e4acbf",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-ungrammar",
+      "depName": "tree-sitter-grammars/tree-sitter-ungrammar",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-ungrammar",
+      "currentValue": "main",
+      "currentDigest": "debd26fed283d80456ebafa33a06957b0c52e451",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-uxntal",
+      "depName": "tree-sitter-grammars/tree-sitter-uxntal",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-uxntal",
+      "currentValue": "master",
+      "currentDigest": "ad9b638b914095320de85d59c49ab271603af048",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-vim",
+      "depName": "tree-sitter-grammars/tree-sitter-vim",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-vim",
+      "currentValue": "master",
+      "currentDigest": "039c8d0aa1deae00ddeb0374dd70bcc0ec56938d",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-vue",
+      "depName": "tree-sitter-grammars/tree-sitter-vue",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-vue",
+      "currentValue": "main",
+      "currentDigest": "ce8011a414fdf8091f4e4071752efc376f4afb08",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-wgsl-bevy",
+      "depName": "tree-sitter-grammars/tree-sitter-wgsl-bevy",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-wgsl-bevy",
+      "currentValue": "master",
+      "currentDigest": "d9306a798ede627001a8e5752f775858c8edd7e4",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-xcompose",
+      "depName": "tree-sitter-grammars/tree-sitter-xcompose",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-xcompose",
+      "currentValue": "master",
+      "currentDigest": "a51d6366f041dbefec4da39a7eb3168a9b1cbc0e",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-xml",
+      "depName": "tree-sitter-grammars/tree-sitter-xml",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-xml",
+      "currentValue": "master",
+      "currentDigest": "5000ae8f22d11fbe93939b05c1e37cf21117162d",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-yaml",
+      "depName": "tree-sitter-grammars/tree-sitter-yaml",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-yaml",
+      "currentValue": "master",
+      "currentDigest": "a1c4812a73ec5e089de8e441fdea3a921e8d5079",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-yuck",
+      "depName": "tree-sitter-grammars/tree-sitter-yuck",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-yuck",
+      "currentValue": "main",
+      "currentDigest": "6c60112b3b3e739fb1ca4a8ea4bea2b6ffe11318",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-grammars/tree-sitter-zig",
+      "depName": "tree-sitter-grammars/tree-sitter-zig",
+      "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-zig",
+      "currentValue": "master",
+      "currentDigest": "6479aa13f32f701c383083d8b28360ebd682fb7d",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter-perl/tree-sitter-perl",
+      "depName": "tree-sitter-perl/tree-sitter-perl",
+      "packageName": "https://github.com/tree-sitter-perl/tree-sitter-perl",
+      "currentValue": "master",
+      "currentDigest": "f678e356280566100e7eed21716d6f59abdf96b7",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
       "ref": "github:tree-sitter/tree-sitter",
       "depName": "tree-sitter/tree-sitter",
       "packageName": "https://github.com/tree-sitter/tree-sitter",
@@ -11,11 +1334,326 @@
     },
     {
       "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-agda",
+      "depName": "tree-sitter/tree-sitter-agda",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-agda",
+      "currentValue": "master",
+      "currentDigest": "e8d47a6987effe34d5595baf321d82d3519a8527",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-bash",
+      "depName": "tree-sitter/tree-sitter-bash",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-bash",
+      "currentValue": "master",
+      "currentDigest": "a06c2e4415e9bc0346c6b86d401879ffb44058f7",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-c",
+      "depName": "tree-sitter/tree-sitter-c",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-c",
+      "currentValue": "master",
+      "currentDigest": "b780e47fc780ddc8da13afa35a3f4ed5c157823d",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-c-sharp",
+      "depName": "tree-sitter/tree-sitter-c-sharp",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-c-sharp",
+      "currentValue": "master",
+      "currentDigest": "9150f7d56bb47f1a809fa23623f1ba1413e93fa9",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-cpp",
+      "depName": "tree-sitter/tree-sitter-cpp",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-cpp",
+      "currentValue": "master",
+      "currentDigest": "c009222808634c1014f82438d4883753516a2c24",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-css",
+      "depName": "tree-sitter/tree-sitter-css",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-css",
+      "currentValue": "master",
+      "currentDigest": "dda5cfc5722c429eaba1c910ca32c2c0c5bb1a3f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-embedded-template",
+      "depName": "tree-sitter/tree-sitter-embedded-template",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-embedded-template",
+      "currentValue": "master",
+      "currentDigest": "3499d85f0a0d937c507a4a65368f2f63772786e1",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-fluent",
+      "depName": "tree-sitter/tree-sitter-fluent",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-fluent",
+      "currentValue": "master",
+      "currentDigest": "858fdd6f1e81992e00d3541bfb31bac9365d7a47",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-go",
+      "depName": "tree-sitter/tree-sitter-go",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-go",
+      "currentValue": "master",
+      "currentDigest": "2346a3ab1bb3857b48b29d779a1ef9799a248cd7",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-graph",
+      "depName": "tree-sitter/tree-sitter-graph",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-graph",
+      "currentValue": "main",
+      "currentDigest": "b930fb59c2177a90b3a6a68e1feeca6918ceb58b",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-haskell",
+      "depName": "tree-sitter/tree-sitter-haskell",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-haskell",
+      "currentValue": "master",
+      "currentDigest": "0975ef72fc3c47b530309ca93937d7d143523628",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-html",
+      "depName": "tree-sitter/tree-sitter-html",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-html",
+      "currentValue": "master",
+      "currentDigest": "73a3947324f6efddf9e17c0ea58d454843590cc0",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-java",
+      "depName": "tree-sitter/tree-sitter-java",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-java",
+      "currentValue": "master",
+      "currentDigest": "e10607b45ff745f5f876bfa3e94fbcc6b44bdc11",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-javascript",
+      "depName": "tree-sitter/tree-sitter-javascript",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-javascript",
+      "currentValue": "master",
+      "currentDigest": "58404d8cf191d69f2674a8fd507bd5776f46cb11",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-jsdoc",
+      "depName": "tree-sitter/tree-sitter-jsdoc",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-jsdoc",
+      "currentValue": "master",
+      "currentDigest": "658d18dcdddb75c760363faa4963427a7c6b52db",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
       "ref": "github:tree-sitter/tree-sitter-json",
       "depName": "tree-sitter/tree-sitter-json",
       "packageName": "https://github.com/tree-sitter/tree-sitter-json",
       "currentValue": "master",
       "currentDigest": "254c42a6476413b776221e03982ac8ae159eeb72",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-julia",
+      "depName": "tree-sitter/tree-sitter-julia",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-julia",
+      "currentValue": "master",
+      "currentDigest": "e0f9dcd180fdcfcfa8d79a3531e11d99e79321d3",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-ocaml",
+      "depName": "tree-sitter/tree-sitter-ocaml",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-ocaml",
+      "currentValue": "master",
+      "currentDigest": "3b2e14e0697d405c9aa0beddfa09b71f45abc504",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-php",
+      "depName": "tree-sitter/tree-sitter-php",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-php",
+      "currentValue": "master",
+      "currentDigest": "92b5271b60bec77fb65b5e5bc41561e8dac81299",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-python",
+      "depName": "tree-sitter/tree-sitter-python",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-python",
+      "currentValue": "master",
+      "currentDigest": "26855eabccb19c6abf499fbc5b8dc7cc9ab8bc64",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-ql",
+      "depName": "tree-sitter/tree-sitter-ql",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-ql",
+      "currentValue": "master",
+      "currentDigest": "5b8ee9adaa1f2a1ea958064b61f8feb0a5a886c0",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-ql-dbscheme",
+      "depName": "tree-sitter/tree-sitter-ql-dbscheme",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-ql-dbscheme",
+      "currentValue": "main",
+      "currentDigest": "15baf01feb5f20bb3d668d27abc0a36e944b183f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-regex",
+      "depName": "tree-sitter/tree-sitter-regex",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-regex",
+      "currentValue": "master",
+      "currentDigest": "b2ac15e27fce703d2f37a79ccd94a5c0cbe9720b",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-ruby",
+      "depName": "tree-sitter/tree-sitter-ruby",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-ruby",
+      "currentValue": "master",
+      "currentDigest": "ad907a69da0c8a4f7a943a7fe012712208da6dee",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-rust",
+      "depName": "tree-sitter/tree-sitter-rust",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-rust",
+      "currentValue": "master",
+      "currentDigest": "77a3747266f4d621d0757825e6b11edcbf991ca5",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-scala",
+      "depName": "tree-sitter/tree-sitter-scala",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-scala",
+      "currentValue": "master",
+      "currentDigest": "db390f312a54b04b13790e1767bfac32665c17ac",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-toml",
+      "depName": "tree-sitter/tree-sitter-toml",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-toml",
+      "currentValue": "master",
+      "currentDigest": "342d9be207c2dba869b9967124c679b5e6fd0ebe",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-typescript",
+      "depName": "tree-sitter/tree-sitter-typescript",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-typescript",
+      "currentValue": "master",
+      "currentDigest": "75b3874edb2dc714fb1fd77a32013d0f8699989f",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-verilog",
+      "depName": "tree-sitter/tree-sitter-verilog",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-verilog",
+      "currentValue": "master",
+      "currentDigest": "227d277b6a1a5e2bf818d6206935722a7503de08",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:uben0/tree-sitter-typst",
+      "depName": "uben0/tree-sitter-typst",
+      "packageName": "https://github.com/uben0/tree-sitter-typst",
+      "currentValue": "master",
+      "currentDigest": "46cf4ded12ee974a70bf8457263b67ad7ee0379d",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:uyha/tree-sitter-cmake",
+      "depName": "uyha/tree-sitter-cmake",
+      "packageName": "https://github.com/uyha/tree-sitter-cmake",
+      "currentValue": "master",
+      "currentDigest": "58993af75218bc99a1f5a04c832a5937e7c422cb",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:victorhqc/tree-sitter-prisma",
+      "depName": "victorhqc/tree-sitter-prisma",
+      "packageName": "https://github.com/victorhqc/tree-sitter-prisma",
+      "currentValue": "main",
+      "currentDigest": "3556b2c1f20ec9ac91e92d32c43d9d2a0ca3cc49",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:virchau13/tree-sitter-astro",
+      "depName": "virchau13/tree-sitter-astro",
+      "packageName": "https://github.com/virchau13/tree-sitter-astro",
+      "currentValue": "master",
+      "currentDigest": "213f6e6973d9b456c6e50e86f19f66877e7ef0ee",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:vrischmann/tree-sitter-templ",
+      "depName": "vrischmann/tree-sitter-templ",
+      "packageName": "https://github.com/vrischmann/tree-sitter-templ",
+      "currentValue": "master",
+      "currentDigest": "94d40865c15ebbaff9ed11dde5d6490b0f5de092",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:wasm-lsp/tree-sitter-wasm",
+      "depName": "wasm-lsp/tree-sitter-wasm",
+      "packageName": "https://github.com/wasm-lsp/tree-sitter-wasm",
+      "currentValue": "main",
+      "currentDigest": "2ca28a9f9d709847bf7a3de0942a84e912f59088",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:yutaro-sakamoto/tree-sitter-cobol",
+      "depName": "yutaro-sakamoto/tree-sitter-cobol",
+      "packageName": "https://github.com/yutaro-sakamoto/tree-sitter-cobol",
+      "currentValue": "main",
+      "currentDigest": "550020ddf42ef9b718ad897868a9308d2afcda35",
       "datasource": "git-refs"
     }
   ]
