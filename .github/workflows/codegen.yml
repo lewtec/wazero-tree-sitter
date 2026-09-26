@@ -39,7 +39,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: workspaced mod lock
+        run: |
+          set -euo pipefail
+          for i in 1 2 3 4 5; do
+            if workspaced mod lock; then
+              exit 0
+            fi
+            echo "mod lock failed, retry ${i}" >&2
+            sleep $((i * 20))
+          done
+          echo "mod lock kept failing; compiling from the committed lock" >&2
 
       - name: Place grammar C
         env:
