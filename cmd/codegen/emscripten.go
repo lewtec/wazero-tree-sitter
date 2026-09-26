@@ -5,6 +5,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strconv"
 	"strings"
 )
 
@@ -57,6 +58,7 @@ func compileGrammar(emcc, treeSitterPath string, unit GrammarUnit, wasmOut strin
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	if err := cmd.Run(); err != nil {
+		os.Remove(wasmOut)
 		return fmt.Errorf("emcc %s: %w", unit.Name, err)
 	}
 	return nil
@@ -76,13 +78,49 @@ func emccCommand(emcc string, args ...string) *exec.Cmd {
 	if py != "" && isPythonScript(resolved) {
 		cmd := exec.Command(py, append([]string{resolved}, args...)...)
 		cmd.Env = append(os.Environ(), "PATH="+binDir+string(os.PathListSeparator)+os.Getenv("PATH"))
-		return cmd
+		return limitMemory(cmd)
 	}
 	cmd := exec.Command(emcc, args...)
 	if binDir != "" {
 		cmd.Env = append(os.Environ(), "PATH="+binDir+string(os.PathListSeparator)+os.Getenv("PATH"))
 	}
-	return cmd
+	return limitMemory(cmd)
+}
+
+// limitMemory runs emcc in its own systemd scope on the GitHub runner.
+// MemoryMax kills that compile instead of the whole job when a grammar
+// such as COBOL exhausts RAM. Local builds are left uncapped.
+func limitMemory(cmd *exec.Cmd) *exec.Cmd {
+	if os.Getenv("GITHUB_ACTIONS") != "true" {
+		return cmd
+	}
+	if _, err := exec.LookPath("systemd-run"); err != nil {
+		return cmd
+	}
+	limit := strings.TrimSpace(os.Getenv("EMCC_MEMORY_MAX"))
+	if limit == "" {
+		limit = "4G"
+	}
+	wd, err := os.Getwd()
+	if err != nil {
+		wd = cmd.Dir
+	}
+	argv := append([]string{
+		"-E", "systemd-run", "--scope",
+		"-p", "MemoryMax=" + limit,
+		"-p", "MemorySwapMax=0",
+		"--uid=" + strconv.Itoa(os.Getuid()),
+		"--gid=" + strconv.Itoa(os.Getgid()),
+		"--working-directory=" + wd,
+		"--pipe", "--collect", "--quiet", "--wait",
+		"--",
+	}, cmd.Args...)
+	wrapped := exec.Command("sudo", argv...)
+	wrapped.Env = cmd.Env
+	wrapped.Dir = cmd.Dir
+	wrapped.Stdout = cmd.Stdout
+	wrapped.Stderr = cmd.Stderr
+	return wrapped
 }
 
 func isPythonScript(path string) bool {

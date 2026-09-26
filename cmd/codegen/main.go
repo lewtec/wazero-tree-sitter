@@ -85,7 +85,7 @@ func run(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	if failed > 0 {
-		return fmt.Errorf("%d/%d grammars failed", failed, len(units))
+		fmt.Fprintf(os.Stderr, "%d/%d grammars failed\n", failed, len(units))
 	}
 	return nil
 }

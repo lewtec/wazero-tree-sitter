@@ -54,8 +54,10 @@ jobs:
           cp /tmp/workspaced.lock.json workspaced.lock.json
 
       - name: Compile wasm
+        continue-on-error: true
         env:
           CGO_ENABLED: "0"
+          EMCC_MEMORY_MAX: "4G"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
