@@ -22,9 +22,10 @@ func compileGrammar(emcc, treeSitterPath string, unit GrammarUnit, wasmOut strin
 	defer os.Remove(langC)
 
 	args := []string{
-		// -O2 runs wasm-opt. conda-forge emscripten 4.0.9 ships binaryen 117
-		// while this emcc expects 123, so stay at -O1 (no wasm-opt).
-		"-O1",
+		// -O0 keeps LLVM from blowing the GitHub runner's memory on large
+		// parser.c files. -O2 would also run wasm-opt, and this emscripten's
+		// binaryen is older than emcc expects.
+		"-O0",
 		"-std=c11",
 		"-D_GNU_SOURCE",
 		"-I" + filepath.Join(treeSitterPath, "lib", "include"),
