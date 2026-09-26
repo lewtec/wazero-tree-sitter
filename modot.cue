@@ -3,6 +3,7 @@ package modot
 // One declaration per language (CUE unifies into #grammar).
 // Live #grammar entries are enabled. Uncomment a block to unlock.
 // Then: mise run grammars:lock && mise run grammars:sync && mise run codegen
+// modot is a Go tool (go tool modot), not a separate mise install.
 //
 // Day-one live grammar is json (parser.c only, no external scanner).
 

@@ -8,9 +8,9 @@ Each language wasm is self-contained. It links tree-sitter's C library, that gra
 
 ```bash
 mise install
-mise run grammars:lock
-mise run grammars:sync
-mise run codegen
+mise run grammars:lock    # go tool modot mod lock
+mise run grammars:sync    # go tool modot codebase apply
+mise run codegen          # go run ./cmd/codegen
 mise run test
 ```
 

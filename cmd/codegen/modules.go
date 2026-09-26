@@ -14,7 +14,7 @@ import (
 const (
 	rootModulePath    = "github.com/lewtec/wazero-tree-sitter"
 	grammarModulePath = rootModulePath + "/grammar"
-	moduleGoVersion   = "1.25.0"
+	moduleGoVersion   = "1.27.0"
 	localPseudoVer    = "v0.0.0"
 	wazeroModulePath  = "github.com/tetratelabs/wazero"
 	wazeroModuleVer   = "v1.9.0"

@@ -1,6 +1,5 @@
 [tools]
-go = "1.25.7"
-"github:lewtec/modot" = "0.19.2"
+go = "1.27.1"
 # Emscripten from conda-forge. mise activates the prefix so emcc sees its Python and libs.
 "conda:emscripten" = "4.0.9"
 
@@ -10,7 +9,7 @@ CGO_ENABLED = "0"
 [tasks."grammars:sync"]
 description = "Place enabled grammar C via modot core:place (JIT, not committed)"
 run = """
-modot codebase apply
+go tool modot codebase apply
 if git ls-files --error-unmatch modot.lock.json >/dev/null 2>&1; then
   git checkout -- modot.lock.json
 fi
@@ -18,7 +17,7 @@ fi
 
 [tasks."grammars:lock"]
 description = "Refresh modot.lock.json for tree_sitter + live #grammar inputs"
-run = "modot mod lock"
+run = "go tool modot mod lock"
 
 [tasks."tree-sitter:path"]
 description = "Print modot cache path for tree_sitter (fetch if missing)"
