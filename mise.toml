@@ -1,0 +1,43 @@
+[tools]
+go = "1.25.7"
+"github:lucasew/workspaced" = "0.14.3"
+# Emscripten from conda-forge. mise activates the prefix so emcc sees its Python and libs.
+"conda:emscripten" = "4.0.9"
+
+[env]
+CGO_ENABLED = "0"
+
+[tasks."grammars:sync"]
+description = "Place enabled grammar C via workspaced core:place (JIT, not committed)"
+run = """
+workspaced codebase apply
+if git ls-files --error-unmatch workspaced.lock.json >/dev/null 2>&1; then
+  git checkout -- workspaced.lock.json
+fi
+"""
+
+[tasks."grammars:lock"]
+description = "Refresh workspaced.lock.json for tree_sitter + live #grammar inputs"
+run = "workspaced mod lock"
+
+[tasks."tree-sitter:path"]
+description = "Print workspaced cache path for tree_sitter (fetch if missing)"
+run = "go run ./cmd/codegen print-tree-sitter-path"
+
+[tasks.test]
+description = "Unit tests (pure Go, no CGO)"
+env = { CGO_ENABLED = "0" }
+run = """
+set -eu
+for dir in $(find . -name go.mod -printf '%h '); do
+  (cd "$dir" && go test ./...)
+done
+"""
+
+[tasks.codegen]
+description = "Compile placed grammars to wasm with emcc and write grammar/<lang> modules"
+env = { CGO_ENABLED = "0" }
+run = """
+export EMCC="${EMCC:-$(mise which emcc)}"
+go run ./cmd/codegen
+"""
