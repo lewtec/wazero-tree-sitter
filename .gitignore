@@ -1,7 +1,5 @@
 # Grammar C placed by modot for emcc. Ignored so it is not committed, and
 # codebase apply updates it on disk without tracking it in state.json.
 /third-party/
-.workspaced/
-.modot/
 *.tmp
 /grammar.wasm
