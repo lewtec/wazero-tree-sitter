@@ -7,6 +7,14 @@ on:
     - cron: "0 6 * * *"
   push:
     branches: [main]
+    paths:
+      - modot.cue
+      - modot.lock.json
+      - go.mod
+      - go.sum
+      - cmd/codegen/**
+      - runtime/**
+      - mise.toml
 
 concurrency:
   group: codegen
