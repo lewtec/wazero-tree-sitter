@@ -1,0 +1,22 @@
+{
+  "dependencies": [
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter",
+      "depName": "tree-sitter/tree-sitter",
+      "packageName": "https://github.com/tree-sitter/tree-sitter",
+      "currentValue": "master",
+      "currentDigest": "dcdc8cc55e5dfedfc858080835f153999a29ec40",
+      "datasource": "git-refs"
+    },
+    {
+      "kind": "source",
+      "ref": "github:tree-sitter/tree-sitter-json",
+      "depName": "tree-sitter/tree-sitter-json",
+      "packageName": "https://github.com/tree-sitter/tree-sitter-json",
+      "currentValue": "master",
+      "currentDigest": "254c42a6476413b776221e03982ac8ae159eeb72",
+      "datasource": "git-refs"
+    }
+  ]
+}

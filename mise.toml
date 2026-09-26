@@ -1,5 +1,7 @@
 [tools]
 go = "1.27.1"
+# Same release leaven-tree-sitter uses. core:place works with codebase apply.
+"github:lucasew/workspaced" = "0.14.3"
 # Emscripten from conda-forge. mise activates the prefix so emcc sees its Python and libs.
 "conda:emscripten" = "4.0.9"
 
@@ -7,17 +9,17 @@ go = "1.27.1"
 CGO_ENABLED = "0"
 
 [tasks."grammars:sync"]
-description = "Place enabled grammar C via modot core:place (JIT, not committed)"
+description = "Place enabled grammar C via workspaced core:place (JIT, not committed)"
 run = """
-go tool modot codebase apply
-if git ls-files --error-unmatch modot.lock.json >/dev/null 2>&1; then
-  git checkout -- modot.lock.json
+workspaced codebase apply
+if git ls-files --error-unmatch workspaced.lock.json >/dev/null 2>&1; then
+  git checkout -- workspaced.lock.json
 fi
 """
 
 [tasks."grammars:lock"]
-description = "Refresh modot.lock.json for tree_sitter + live #grammar inputs"
-run = "go tool modot mod lock"
+description = "Refresh workspaced.lock.json for tree_sitter + live #grammar inputs"
+run = "workspaced mod lock"
 
 [tasks."tree-sitter:path"]
 description = "Print the placed tree-sitter core path"

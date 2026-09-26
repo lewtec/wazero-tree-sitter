@@ -14,7 +14,7 @@ func resolveTreeSitterPath() (string, error) {
 	}
 	marker, err := findUp(filepath.Join("third-party", "tree-sitter", "lib", "src", "lib.c"))
 	if err != nil {
-		return "", fmt.Errorf("placed tree-sitter core: %w (run: go tool modot codebase apply)", err)
+		return "", fmt.Errorf("placed tree-sitter core: %w (run: workspaced codebase apply)", err)
 	}
 	return checkTreeSitter(filepath.Dir(filepath.Dir(filepath.Dir(marker))))
 }

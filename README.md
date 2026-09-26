@@ -8,15 +8,15 @@ Each language wasm is self-contained. It links tree-sitter's C library, that gra
 
 ```bash
 mise install
-mise run grammars:lock    # go tool modot mod lock
-mise run grammars:sync    # go tool modot codebase apply
+mise run grammars:lock    # workspaced mod lock
+mise run grammars:sync    # workspaced codebase apply
 mise run codegen          # go run ./cmd/codegen
 mise run test
 ```
 
-Uncomment a `#grammar` block in `modot.cue`, then lock, sync, and codegen again.
+Uncomment a `#grammar` block in `workspaced.cue`, then lock, sync, and codegen again.
 
-Codegen also runs in GitHub Actions every day at 06:00 UTC, and when `modot.cue`, the lockfile, or the compiler changes on `main`. The job refreshes grammar pins, rebuilds each `grammar.wasm`, and opens a pull request when the result differs. Test runs that pull request across the usual operating-system matrix.
+Codegen also runs in GitHub Actions every day at 06:00 UTC, and when `workspaced.cue`, the lockfile, or the compiler changes on `main`. The job refreshes grammar pins, rebuilds each `grammar.wasm`, and opens a pull request when the result differs. Test runs that pull request across the usual operating-system matrix.
 
 ```go
 import (

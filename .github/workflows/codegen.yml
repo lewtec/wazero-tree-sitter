@@ -8,8 +8,8 @@ on:
   push:
     branches: [main]
     paths:
-      - modot.cue
-      - modot.lock.json
+      - workspaced.cue
+      - workspaced.lock.json
       - go.mod
       - go.sum
       - cmd/codegen/**
@@ -39,7 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: go tool modot mod lock
+        run: workspaced mod lock
 
       - name: Place grammar C
         env:
@@ -49,9 +49,9 @@ jobs:
           set -euo pipefail
           # apply may pin host lazy tools into the lock. Keep the source pins
           # from `mod lock` and drop that extra tool noise.
-          cp modot.lock.json /tmp/modot.lock.json
-          go tool modot codebase apply
-          cp /tmp/modot.lock.json modot.lock.json
+          cp workspaced.lock.json /tmp/workspaced.lock.json
+          workspaced codebase apply
+          cp /tmp/workspaced.lock.json workspaced.lock.json
 
       - name: Compile wasm
         env:
@@ -70,7 +70,7 @@ jobs:
           commit-message: "chore: update grammars and wasm"
           title: "Update grammars and wasm"
           body: |
-            Refreshes live `#grammar` pins in `modot.lock.json`, places the C
+            Refreshes live `#grammar` pins in `workspaced.lock.json`, places the C
             sources, and recompiles each `grammar.wasm`.
 
             Click **Approve workflows to run** so Test runs on this PR.
