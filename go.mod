@@ -3,6 +3,8 @@ module github.com/lewtec/wazero-tree-sitter
 go 1.27.0
 
 require (
+	github.com/lewtec/wazero-tree-sitter/grammar v0.0.0
+	github.com/lewtec/wazero-tree-sitter/grammar/json v0.0.0
 	github.com/spf13/cobra v1.10.2
 	golang.org/x/mod v0.41.0
 )
@@ -44,8 +46,8 @@ require (
 	github.com/ktr0731/go-ansisgr v0.1.0 // indirect
 	github.com/ktr0731/go-fuzzyfinder v0.9.0 // indirect
 	github.com/landlock-lsm/go-landlock v0.0.0-20250303204525-1544bccde3a3 // indirect
-	github.com/lewtec/lewkit v0.0.0-20260925132207-39f8cc32ba8a // indirect
-	github.com/lewtec/modot v0.0.0-20260925230156-c3360fcd7d42 // indirect
+	github.com/lewtec/lewkit v0.0.0-20260926004721-11710eb97853 // indirect
+	github.com/lewtec/modot v0.0.0-20260926141546-33ee7b0ebcde // indirect
 	github.com/lucasb-eyer/go-colorful v1.4.0 // indirect
 	github.com/mattn/go-isatty v0.0.24 // indirect
 	github.com/mattn/go-runewidth v0.0.30 // indirect
@@ -84,8 +86,6 @@ require (
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.12.1 // indirect
 	modernc.org/sqlite v1.58.0 // indirect
-	github.com/lewtec/wazero-tree-sitter/grammar v0.0.0
-	github.com/lewtec/wazero-tree-sitter/grammar/json v0.0.0
 )
 
 tool github.com/lewtec/modot/cmd/modot

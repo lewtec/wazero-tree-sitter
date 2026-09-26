@@ -83,8 +83,12 @@ github.com/landlock-lsm/go-landlock v0.0.0-20250303204525-1544bccde3a3 h1:zcMi8R
 github.com/landlock-lsm/go-landlock v0.0.0-20250303204525-1544bccde3a3/go.mod h1:RSub3ourNF8Hf+swvw49Catm3s7HVf4hzdFxDUnEzdA=
 github.com/lewtec/lewkit v0.0.0-20260925132207-39f8cc32ba8a h1:/stt1EmXS5I2KY1t8Vt4O6IyDYCbOF9zAvVFlepabdg=
 github.com/lewtec/lewkit v0.0.0-20260925132207-39f8cc32ba8a/go.mod h1:wz/hvna2d0UoaEtrnyRffXAqIh1ljXkXT8DJF+foYTk=
+github.com/lewtec/lewkit v0.0.0-20260926004721-11710eb97853 h1:Q9WSq9PoTeu9+j5qn3Fg7FBqz3hQmIR7v/AVfi3jTYU=
+github.com/lewtec/lewkit v0.0.0-20260926004721-11710eb97853/go.mod h1:5JbYG3q20rGDjBvl3jc2AVwkC18lZMk87AMGWkPZJBk=
 github.com/lewtec/modot v0.0.0-20260925230156-c3360fcd7d42 h1:Ii0lMw1B+u8GMw8AyKhzdUx2tcA/uMtfxrKDb3Pl69I=
 github.com/lewtec/modot v0.0.0-20260925230156-c3360fcd7d42/go.mod h1:hRipAByQH2onwqt3XsMGgd2MqHi87K9CsH5hfJpLui8=
+github.com/lewtec/modot v0.0.0-20260926141546-33ee7b0ebcde h1:ibABPlmj91v29qZxlylkIE6EcieQLvLBMJcE8v0Zwc0=
+github.com/lewtec/modot v0.0.0-20260926141546-33ee7b0ebcde/go.mod h1:+GGqf6VqW4W+8ktfZvCGvvILkKBTU1k5pcBMgqW8N1E=
 github.com/lucasb-eyer/go-colorful v1.2.0/go.mod h1:R4dSotOR9KMtayYi1e77YzuveK+i7ruzyGqttikkLy0=
 github.com/lucasb-eyer/go-colorful v1.4.0 h1:UtrWVfLdarDgc44HcS7pYloGHJUjHV/4FwW4TvVgFr4=
 github.com/lucasb-eyer/go-colorful v1.4.0/go.mod h1:R4dSotOR9KMtayYi1e77YzuveK+i7ruzyGqttikkLy0=
@@ -225,4 +229,3 @@ modernc.org/memory v1.12.1 h1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=
 modernc.org/memory v1.12.1/go.mod h1:/JP4VbVC+K5sU2wZi9bHoq2MAkCnrt2r98UGeSK7Mjw=
 modernc.org/sqlite v1.58.0 h1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=
 modernc.org/sqlite v1.58.0/go.mod h1:rsD2CckafgObKC4DhBlGBf+RiHxkc3hINGt1Xw32tVY=
- 

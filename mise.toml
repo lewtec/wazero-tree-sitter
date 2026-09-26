@@ -20,7 +20,7 @@ description = "Refresh modot.lock.json for tree_sitter + live #grammar inputs"
 run = "go tool modot mod lock"
 
 [tasks."tree-sitter:path"]
-description = "Print modot cache path for tree_sitter (fetch if missing)"
+description = "Print the placed tree-sitter core path"
 run = "go run ./cmd/codegen print-tree-sitter-path"
 
 [tasks.test]

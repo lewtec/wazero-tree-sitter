@@ -30,11 +30,12 @@ package modot
 	repo: string
 }
 
-// Core C library (lib/src, lib/include). Source + lock only — not core:place'd.
-// Resolve: mise run tree-sitter:path  (or TREE_SITTER_PATH).
+// Core C library. Placed next to the grammars; emcc reads that tree.
 #tree_sitter: {
 	from:    "github:tree-sitter/tree-sitter"
 	version: "HEAD"
+	repo:    "tree-sitter"
+	paths: ["lib/src", "lib/include"]
 }
 
 inputs: {
@@ -50,7 +51,17 @@ inputs: {
 	}
 }
 modules: {
-	// tree_sitter has no place module. Each #grammar is copied under third-party/.
+	tree_sitter: {
+		from: "core:place"
+		config: {
+			ignore_missing: true
+			items: {
+				for p in #tree_sitter.paths {
+					"third-party/\(#tree_sitter.repo)/\(p)": "tree_sitter:\(p)"
+				}
+			}
+		}
+	}
 	for name, g in #grammar {
 		"grammar_\(name)": {
 			from: "core:place"
