@@ -16,6 +16,8 @@ mise run test
 
 Uncomment a `#grammar` block in `modot.cue`, then lock, sync, and codegen again.
 
+Codegen also runs in GitHub Actions every day at 06:00 UTC, and when `modot.cue`, the lockfile, or the compiler changes on `main`. The job refreshes grammar pins, rebuilds each `grammar.wasm`, and opens a pull request when the result differs. Test runs that pull request across the usual operating-system matrix.
+
 ```go
 import (
     "github.com/lewtec/wazero-tree-sitter/grammar"
