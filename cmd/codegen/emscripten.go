@@ -65,17 +65,41 @@ func compileGrammar(emcc, treeSitterPath string, unit GrammarUnit, wasmOut strin
 // A `#!/usr/bin/env python3` shebang hits this machine's python3 shim
 // (mise exec uv) which rejects `--` flags emcc passes through.
 func emccCommand(emcc string, args ...string) *exec.Cmd {
-	if resolved, err := filepath.EvalSymlinks(emcc); err == nil {
-		emcc = resolved
+	resolved := emcc
+	if r, err := filepath.EvalSymlinks(emcc); err == nil {
+		resolved = r
 	}
-	if py, binDir := condaPython(emcc); py != "" {
-		cmd := exec.Command(py, append([]string{emcc}, args...)...)
-		// Subprocess emcc scripts use `#!/usr/bin/env python3`. Put the
-		// conda prefix ahead of this host's python3 shim.
+	py, binDir := condaPython(resolved)
+	// mise's .mise-bins/emcc is a shell launcher. Feeding that file to
+	// Python is a syntax error. Only exec Python when the target is emcc.py.
+	if py != "" && isPythonScript(resolved) {
+		cmd := exec.Command(py, append([]string{resolved}, args...)...)
 		cmd.Env = append(os.Environ(), "PATH="+binDir+string(os.PathListSeparator)+os.Getenv("PATH"))
 		return cmd
 	}
-	return exec.Command(emcc, args...)
+	cmd := exec.Command(emcc, args...)
+	if binDir != "" {
+		cmd.Env = append(os.Environ(), "PATH="+binDir+string(os.PathListSeparator)+os.Getenv("PATH"))
+	}
+	return cmd
+}
+
+func isPythonScript(path string) bool {
+	if strings.HasSuffix(path, ".py") {
+		return true
+	}
+	f, err := os.Open(path)
+	if err != nil {
+		return false
+	}
+	defer f.Close()
+	buf := make([]byte, 80)
+	n, _ := f.Read(buf)
+	line := string(buf[:n])
+	if i := strings.IndexByte(line, '\n'); i >= 0 {
+		line = line[:i]
+	}
+	return strings.Contains(line, "python")
 }
 
 // condaPython finds prefix/bin/python3 by walking up from the emcc script.

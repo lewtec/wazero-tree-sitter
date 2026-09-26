@@ -58,9 +58,8 @@ jobs:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
         run: |
-          set -euo pipefail
-          mapfile -t dirs < <(go list -m -f '{{.Dir}}')
-          for dir in "${dirs[@]}"; do
+          set -eu
+          for dir in $(go list -m -f '{{.Dir}}'); do
             (cd "$dir" && go test ./...)
           done
 
@@ -88,8 +87,7 @@ jobs:
           GOOS: linux
           GOARCH: "386"
         run: |
-          set -euo pipefail
-          mapfile -t dirs < <(go list -m -f '{{.Dir}}')
-          for dir in "${dirs[@]}"; do
+          set -eu
+          for dir in $(go list -m -f '{{.Dir}}'); do
             (cd "$dir" && go test ./...)
           done
