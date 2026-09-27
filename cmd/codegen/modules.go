@@ -6,9 +6,12 @@ import (
 	"os/exec"
 	"path/filepath"
 	"sort"
+	"strconv"
 	"strings"
+	"time"
 
 	"golang.org/x/mod/modfile"
+	"golang.org/x/mod/module"
 )
 
 const (
@@ -77,7 +80,43 @@ require %s %s
 	return os.WriteFile(filepath.Join(grammarDir, "go.mod"), []byte(content), 0o644)
 }
 
+// coreGrammarPseudoVersion is the core grammar module at HEAD.
+// Consumers ignore replace directives. A require of v0.0.0 sorts above every
+// v0.0.0-* commit, so minimal version selection would demand a tag that does
+// not exist. A real pseudo-version is fetchable without a consumer replace.
+func coreGrammarPseudoVersion() (string, error) {
+	rev, err := gitOutput("rev-parse", "HEAD")
+	if err != nil {
+		return "", err
+	}
+	if len(rev) < 12 {
+		return "", fmt.Errorf("git HEAD %q is too short for a pseudo-version", rev)
+	}
+	unixStr, err := gitOutput("log", "-1", "--format=%ct", "HEAD")
+	if err != nil {
+		return "", err
+	}
+	unix, err := strconv.ParseInt(unixStr, 10, 64)
+	if err != nil {
+		return "", fmt.Errorf("parse HEAD commit time %q: %w", unixStr, err)
+	}
+	return module.PseudoVersion("v0", "", time.Unix(unix, 0).UTC(), rev[:12]), nil
+}
+
+func gitOutput(args ...string) (string, error) {
+	cmd := exec.Command("git", args...)
+	out, err := cmd.Output()
+	if err != nil {
+		return "", fmt.Errorf("git %s: %w", strings.Join(args, " "), err)
+	}
+	return strings.TrimSpace(string(out)), nil
+}
+
 func writeLangGoMod(grammarDir, lang string) error {
+	coreVer, err := coreGrammarPseudoVersion()
+	if err != nil {
+		return err
+	}
 	content := fmt.Sprintf(`module %s/%s
 
 go %s
@@ -85,7 +124,7 @@ go %s
 require %s %s
 
 replace %s => ../
-`, grammarModulePath, lang, moduleGoVersion, grammarModulePath, localPseudoVer, grammarModulePath)
+`, grammarModulePath, lang, moduleGoVersion, grammarModulePath, coreVer, grammarModulePath)
 	return os.WriteFile(filepath.Join(grammarDir, lang, "go.mod"), []byte(content), 0o644)
 }
 
