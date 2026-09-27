@@ -122,9 +122,7 @@ func writeLangGoMod(grammarDir, lang string) error {
 go %s
 
 require %s %s
-
-replace %s => ../
-`, grammarModulePath, lang, moduleGoVersion, grammarModulePath, coreVer, grammarModulePath)
+`, grammarModulePath, lang, moduleGoVersion, grammarModulePath, coreVer)
 	return os.WriteFile(filepath.Join(grammarDir, lang, "go.mod"), []byte(content), 0o644)
 }
 
@@ -184,15 +182,16 @@ func updateRootGoMod(outputDir string, langs []string) error {
 			return err
 		}
 	}
-	mods := []struct{ path, dir string }{{grammarModulePath, "./grammar"}}
+	coreVer, err := coreGrammarPseudoVersion()
+	if err != nil {
+		return err
+	}
+	mods := []string{grammarModulePath}
 	for _, lang := range langs {
-		mods = append(mods, struct{ path, dir string }{grammarModulePath + "/" + lang, "./grammar/" + lang})
+		mods = append(mods, grammarModulePath+"/"+lang)
 	}
 	for _, m := range mods {
-		if err := f.AddRequire(m.path, localPseudoVer); err != nil {
-			return err
-		}
-		if err := f.AddReplace(m.path, "", m.dir, ""); err != nil {
+		if err := f.AddRequire(m, coreVer); err != nil {
 			return err
 		}
 	}

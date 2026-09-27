@@ -34,7 +34,7 @@ func TestWriteLangGoModRequiresPublishedCore(t *testing.T) {
 	for _, want := range []string{
 		"module github.com/lewtec/wazero-tree-sitter/grammar/json",
 		"require github.com/lewtec/wazero-tree-sitter/grammar " + coreVer,
-		"replace github.com/lewtec/wazero-tree-sitter/grammar => ../",
+
 	} {
 		if !strings.Contains(s, want) {
 			t.Errorf("go.mod missing %q\n%s", want, s)

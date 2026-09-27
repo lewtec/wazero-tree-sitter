@@ -2,6 +2,5 @@ module github.com/lewtec/wazero-tree-sitter/grammar/meson
 
 go 1.27.0
 
-require github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20260926205449-ac1b106768d2
+require github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20260927175003-766673523e06
 
-replace github.com/lewtec/wazero-tree-sitter/grammar => ../
