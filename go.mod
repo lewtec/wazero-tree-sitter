@@ -125,7 +125,7 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/php_only v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/pkl v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/po v0.0.0-20260927175003-766673523e06
-	github.com/lewtec/wazero-tree-sitter/grammar/poe_filter v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar/poe_filter v0.0.0-20260927191430-7863ea35cdcc
 	github.com/lewtec/wazero-tree-sitter/grammar/pony v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/printf v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/prisma v0.0.0-20260927175003-766673523e06
