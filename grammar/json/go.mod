@@ -2,5 +2,6 @@ module github.com/lewtec/wazero-tree-sitter/grammar/json
 
 go 1.27.0
 
-require github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20260927175003-766673523e06
+require github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20260927191430-7863ea35cdcc
 
+require github.com/tetratelabs/wazero v1.9.0 // indirect
