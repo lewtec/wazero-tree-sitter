@@ -65,7 +65,7 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/gitattributes v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/gitignore v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/gleam v0.0.0-20260927175003-766673523e06
-	github.com/lewtec/wazero-tree-sitter/grammar/glsl v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar/glsl v0.0.0-20260927191430-7863ea35cdcc
 	github.com/lewtec/wazero-tree-sitter/grammar/gn v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/go v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/godot_resource v0.0.0-20260927175003-766673523e06
