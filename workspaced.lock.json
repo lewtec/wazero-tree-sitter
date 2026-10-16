@@ -474,7 +474,7 @@
       "depName": "neovim/tree-sitter-vimdoc",
       "packageName": "https://github.com/neovim/tree-sitter-vimdoc",
       "currentValue": "master",
-      "currentDigest": "23daa416c1ff5d15f59a1aa648f031d6e3ee15c5",
+      "currentDigest": "f5042f27b22ddd4a93e16131189a34f54c2709c3",
       "datasource": "git-refs"
     },
     {
