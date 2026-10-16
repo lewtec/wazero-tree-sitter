@@ -1,5 +1,5 @@
 [tools]
-go = "1.27.1"
+go = "1.27.2"
 # Same release leaven-tree-sitter uses. core:place works with codebase apply.
 "github:lucasew/workspaced" = "0.14.3"
 # Emscripten from conda-forge. mise activates the prefix so emcc sees its Python and libs.
