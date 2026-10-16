@@ -1320,7 +1320,7 @@
       "depName": "tree-sitter-perl/tree-sitter-perl",
       "packageName": "https://github.com/tree-sitter-perl/tree-sitter-perl",
       "currentValue": "master",
-      "currentDigest": "f678e356280566100e7eed21716d6f59abdf96b7",
+      "currentDigest": "f2d74d314d8911ae3694e2c8f73736cc0dbe041b",
       "datasource": "git-refs"
     },
     {
