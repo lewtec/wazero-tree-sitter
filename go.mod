@@ -58,7 +58,7 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/fluent v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/fsharp v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/fsharp_signature v0.0.0-20260927175003-766673523e06
-	github.com/lewtec/wazero-tree-sitter/grammar/func v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar/func v0.0.0-20260927191430-7863ea35cdcc
 	github.com/lewtec/wazero-tree-sitter/grammar/gdscript v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/git_config v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/git_rebase v0.0.0-20260927175003-766673523e06
