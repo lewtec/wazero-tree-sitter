@@ -24,7 +24,7 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/bibtex v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/bicep v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/bitbake v0.0.0-20260927175003-766673523e06
-	github.com/lewtec/wazero-tree-sitter/grammar/c v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar/c v0.0.0-20260927191430-7863ea35cdcc
 	github.com/lewtec/wazero-tree-sitter/grammar/c_sharp v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/cairo v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/capnp v0.0.0-20260927175003-766673523e06
