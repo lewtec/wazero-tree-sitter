@@ -92,7 +92,7 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/json5 v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/json_schema v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/julia v0.0.0-20260927175003-766673523e06
-	github.com/lewtec/wazero-tree-sitter/grammar/just v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar/just v0.0.0-20260927191430-7863ea35cdcc
 	github.com/lewtec/wazero-tree-sitter/grammar/kconfig v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/kdl v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/kotlin v0.0.0-20260927175003-766673523e06
