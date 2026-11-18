@@ -1122,7 +1122,7 @@
       "depName": "tree-sitter-grammars/tree-sitter-scss",
       "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-scss",
       "currentValue": "master",
-      "currentDigest": "2ef6d42e3ad7a8208900f9346f4529806ae0f9f9",
+      "currentDigest": "5da5ba71a558b007b352c505bfcd9095ae337022",
       "datasource": "git-refs"
     },
     {
