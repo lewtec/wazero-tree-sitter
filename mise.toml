@@ -1,7 +1,7 @@
 [tools]
 go = "1.27.1"
 # Same release leaven-tree-sitter uses. core:place works with codebase apply.
-"github:lucasew/workspaced" = "0.14.3"
+"github:lucasew/workspaced" = "0.20.2"
 # Emscripten from conda-forge. mise activates the prefix so emcc sees its Python and libs.
 "conda:emscripten" = "4.0.9"
 
