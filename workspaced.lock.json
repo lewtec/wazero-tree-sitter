@@ -1491,7 +1491,7 @@
       "depName": "tree-sitter/tree-sitter-ocaml",
       "packageName": "https://github.com/tree-sitter/tree-sitter-ocaml",
       "currentValue": "master",
-      "currentDigest": "3b2e14e0697d405c9aa0beddfa09b71f45abc504",
+      "currentDigest": "a1c562e73ab787dcc69fdc2e5510c53bbce5364f",
       "datasource": "git-refs"
     },
     {
