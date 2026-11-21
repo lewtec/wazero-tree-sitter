@@ -321,7 +321,7 @@
       "depName": "elixir-lang/tree-sitter-elixir",
       "packageName": "https://github.com/elixir-lang/tree-sitter-elixir",
       "currentValue": "main",
-      "currentDigest": "4b0c7118760af58a2e7081bbc8396e136f820b37",
+      "currentDigest": "cb32ccbe17c67037b09e31bf9beb22cdae6ed8e9",
       "datasource": "git-refs"
     },
     {
