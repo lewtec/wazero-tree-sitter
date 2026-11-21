@@ -79,7 +79,7 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/hcl v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/heex v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/hlsl v0.0.0-20260927175003-766673523e06
-	github.com/lewtec/wazero-tree-sitter/grammar/html v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar/html v0.0.0-20261118140918-2a599574c70e
 	github.com/lewtec/wazero-tree-sitter/grammar/http v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/hyprlang v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/idris v0.0.0-20260927175003-766673523e06
