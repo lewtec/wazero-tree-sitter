@@ -12,7 +12,7 @@ require (
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/tetratelabs/wazero v1.12.0 // indirect
 	golang.org/x/sys v0.48.0 // indirect
-	github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20261118140918-2a599574c70e
 	github.com/lewtec/wazero-tree-sitter/grammar/ada v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/agda v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/angular v0.0.0-20260927175003-766673523e06
