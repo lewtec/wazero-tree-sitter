@@ -1329,7 +1329,7 @@
       "depName": "tree-sitter/tree-sitter",
       "packageName": "https://github.com/tree-sitter/tree-sitter",
       "currentValue": "master",
-      "currentDigest": "dcdc8cc55e5dfedfc858080835f153999a29ec40",
+      "currentDigest": "3aacf97afa349b9c26b8ae5966643f78aecfbe98",
       "datasource": "git-refs"
     },
     {
