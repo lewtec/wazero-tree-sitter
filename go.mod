@@ -53,7 +53,7 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/elm v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/embedded_template v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/erlang v0.0.0-20260927175003-766673523e06
-	github.com/lewtec/wazero-tree-sitter/grammar/firrtl v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar/firrtl v0.0.0-20261118140918-2a599574c70e
 	github.com/lewtec/wazero-tree-sitter/grammar/fish v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/fluent v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/fsharp v0.0.0-20260927175003-766673523e06
