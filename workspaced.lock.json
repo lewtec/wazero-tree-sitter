@@ -1194,7 +1194,7 @@
       "depName": "tree-sitter-grammars/tree-sitter-tcl",
       "packageName": "https://github.com/tree-sitter-grammars/tree-sitter-tcl",
       "currentValue": "main",
-      "currentDigest": "850a72ab6436e06645b33b11cfa60cbdb04b1f01",
+      "currentDigest": "90e87ed495a04fd0bf18db4be12b7033cd7402f6",
       "datasource": "git-refs"
     },
     {
