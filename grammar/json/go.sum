@@ -1,2 +1,4 @@
+github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20261118140918-2a599574c70e h1:EQE9wlbFcweYIM0b4uHCwXD9FMRTNNAFNBjX3fqmejY=
+github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20261118140918-2a599574c70e/go.mod h1:xwgf7PJSOWRAqcuffR314NyyEYgsyeTP/Y1FxvykQBk=
 github.com/tetratelabs/wazero v1.9.0 h1:IcZ56OuxrtaEz8UYNRHBrUa9bYeX9oVY93KspZZBf/I=
 github.com/tetratelabs/wazero v1.9.0/go.mod h1:TSbcXCfFP0L2FGkRPxHphadXPjo1T6W+CseNNY7EkjM=
