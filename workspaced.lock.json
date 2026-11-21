@@ -186,7 +186,7 @@
       "depName": "airbus-cert/tree-sitter-powershell",
       "packageName": "https://github.com/airbus-cert/tree-sitter-powershell",
       "currentValue": "main",
-      "currentDigest": "e7bd348c49fdfd5c853a146a670965ba516a6239",
+      "currentDigest": "65ea6919e816a7ac142acec7ee72757f89db8439",
       "datasource": "git-refs"
     },
     {
