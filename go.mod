@@ -3,15 +3,6 @@ module github.com/lewtec/wazero-tree-sitter
 go 1.27.0
 
 require (
-	github.com/spf13/cobra v1.10.2
-	golang.org/x/mod v0.41.0
-)
-
-require (
-	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/spf13/pflag v1.0.10 // indirect
-	github.com/tetratelabs/wazero v1.12.0 // indirect
-	golang.org/x/sys v0.48.0 // indirect
 	github.com/lewtec/wazero-tree-sitter/grammar v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/ada v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/agda v0.0.0-20260927175003-766673523e06
@@ -133,7 +124,7 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/proto v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/psv v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/puppet v0.0.0-20260927175003-766673523e06
-	github.com/lewtec/wazero-tree-sitter/grammar/purescript v0.0.0-20260927175003-766673523e06
+	github.com/lewtec/wazero-tree-sitter/grammar/purescript v0.0.0-20261118140918-2a599574c70e
 	github.com/lewtec/wazero-tree-sitter/grammar/pymanifest v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/python v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/ql v0.0.0-20260927175003-766673523e06
@@ -196,5 +187,13 @@ require (
 	github.com/lewtec/wazero-tree-sitter/grammar/yaml v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/yuck v0.0.0-20260927175003-766673523e06
 	github.com/lewtec/wazero-tree-sitter/grammar/zig v0.0.0-20260927175003-766673523e06
+	github.com/spf13/cobra v1.10.2
+	golang.org/x/mod v0.41.0
 )
 
+require (
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/spf13/pflag v1.0.10 // indirect
+	github.com/tetratelabs/wazero v1.12.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+)
